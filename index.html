@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>HEXAGON LUXURY</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="brand">
+        <div class="logo">X</div>
+        <div class="brand-text">
+          <div class="title">HEXAGON</div>
+          <div class="subtitle">LUXURY</div>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="#shop">Shop</a>
+        <a href="#collections">Collections</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="btn-outline">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>OWN YOUR EDGE</h1>
+          <p class="lead">Luxury streetwear crafted for those who stand out. Precision, attitude and timeless quality.</p>
+          <div class="hero-cta">
+            <a href="#shop" class="btn">Shop Now</a>
+            <a href="#collections" class="btn btn-light">New Arrivals</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="tee-mock">
+            <div class="tee-logo">HEXAGON</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="shop" class="section container">
+      <h2 class="section-title">Featured Collection</h2>
+      <div id="products" class="products-grid">
+        <!-- Products populated by JS -->
+      </div>
+    </section>
+
+    <section id="collections" class="section dark">
+      <div class="container">
+        <h2 class="section-title">Where Luxury Meets Identity</h2>
+        <p class="muted">HEXAGON LUXURY is built for bold minds, confident hearts, and people who create their own lane. Every piece is crafted with precision, style, and purpose.</p>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <div class="about-grid">
+        <div>
+          <h3>The Hexagon Story</h3>
+          <p>Born from creativity and expression, Hexagon Luxury represents originality, confidence, and edge. We design for people who lead — not follow.</p>
+        </div>
+        <div class="features">
+          <div class="feature"><strong>Premium Fabrics</strong><span>Comfort that lasts</span></div>
+          <div class="feature"><strong>Ethical Production</strong><span>Made responsibly</span></div>
+          <div class="feature"><strong>Limited Drops</strong><span>Exclusive pieces</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section container">
+      <h2 class="section-title">Get in Touch</h2>
+      <p>Email: <a href="mailto:hello@hexagonluxury.com">hello@hexagonluxury.com</a> — Instagram: <a href="https://instagram.com/hexagon_luxury" target="_blank">@hexagon_luxury</a></p>
+      <div class="subscribe">
+        <input id="email" type="email" placeholder="Join our drop list" />
+        <button id="joinBtn" class="btn">Join</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div>© <span id="year"></span> HEXAGON LUXURY</div>
+      <div class="footer-right">Designed for the bold — Own Your Edge.</div>
+    </div>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
